@@ -1,0 +1,386 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-items div {
+    margin: 0 15px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.hero-section-left {
+    width: 50%;
+}
+
+.hero-section-heading {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.hero-section-sub-heading .role {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.hero-section-description {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-pink {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 8px 16px; /* Adjusted padding for a smaller button */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Adjusted font size for consistency */
+}
+
+.btn-pink:hover {
+    background-color: #ff1493;
+}
+
+
+.hero-section-right img {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.page-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.project-content {
+    text-align: center;
+}
+
+.project-skills-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.project-skills {
+    height: 40px;
+    margin: 0 5px;
+}
+
+.project-heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project-subheading {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-grp {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-grp a {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #ff69b4;
+}
+
+.skills-container {
+    padding: 50px 0;
+}
+
+.skill-faded-text {
+    font-size: 100px;
+    color: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skill-container-left {
+    width: 50%;
+}
+
+.skill-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skill-subHeading p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-container-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-logo {
+    height: 60px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.skills-logo:hover {
+    transform: scale(1.1);
+}
+
+.contactus-form-container {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.contactus-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contactus-sub-heading {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formfield-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.formfield {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formfield-textarea {
+    height: 100px;
+}
+
+#submit-btn {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #ff1493;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-faded-text {
+    font-size: 24px;
+    color: #777;
+}
+
+.link-wrapper a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.icon-wrapper a {
+    margin: 0 5px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.icon-wrapper a:hover {
+    color: #ff69b4;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 0 1rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-section-left,
+    .hero-section-right {
+        width: 100%;
+    }
+
+    .project-section {
+        padding: 1rem 0;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .btn-pink {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section-heading {
+        font-size: 28px;
+    }
+
+    .hero-section-sub-heading {
+        font-size: 36px;
+    }
+
+    .hero-section-description {
+        width: 90%;
+    }
+
+    .project-card {
+        padding: 1rem;
+    }
+
+    .btn-pink {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .logo-text {
+        font-size: 24px;
+    }
+}
